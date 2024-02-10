@@ -2,7 +2,7 @@
 /**
  * Custom Functions
  *
- * @package WP Made
+ * @package Project Name
  */
 
 /**
@@ -118,7 +118,7 @@ add_filter(
     'admin_footer_text',
     function ($footer_text) {
         // Edit the line below to customize the footer text.
-        $footer_text = '<span>Copyright 2024© All Rights Reserved to <a href="https://wpmade.com/" target="_blank" rel="noopener">WP Made</a></span>';
+        $footer_text = '<span>Copyright 2024© All Rights Reserved to <a href="https://project-name.com/" target="_blank" rel="noopener">Project Name</a></span>';
 
         return $footer_text;
     }

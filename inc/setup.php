@@ -2,7 +2,7 @@
 /**
  * Theme Setup
  *
- * @package WP Made
+ * @package Project Name
  */
 
 /**

@@ -1,10 +1,10 @@
 <?php
 /**
- * @package           WP Made
+ * @package           Project Name
  * @author            Krisitjan Pirkovic
- * @copyright         2023 WP Made
+ * @copyright         2023 Project Name
  *
- * WP Made functions and definitions
+ * Project Name functions and definitions
  * 
  */
 

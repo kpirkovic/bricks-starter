@@ -2,7 +2,7 @@
 /**
  * Enqueue scripts and styles
  *
- * @package WP Made
+ * @package Project Name
  */
 
 // Exit if accessed directly.
@@ -18,7 +18,7 @@ if (!function_exists('enqueue_editor_styles_and_scripts')) {
 
     function enqueue_styles_and_scripts()
     {
-        wp_enqueue_style('wpmade-css', get_stylesheet_directory_uri() . '/public/editor.css');
+        wp_enqueue_style('project-name-css', get_stylesheet_directory_uri() . '/public/editor.css');
     }
 }
 
@@ -32,8 +32,8 @@ if (!function_exists('enqueue_frontend_styles_and_scripts')) {
 
     function enqueue_frontend_styles_and_scripts()
     {
-        wp_enqueue_script('wpmade-js', get_stylesheet_directory_uri() . '/public/index.js');
-        wp_enqueue_style('wpmade-css', get_stylesheet_directory_uri() . '/public/index.css');
+        wp_enqueue_script('project-name-js', get_stylesheet_directory_uri() . '/public/index.js');
+        wp_enqueue_style('project-name-css', get_stylesheet_directory_uri() . '/public/index.css');
 
         if ( !bricks_is_builder_main() ) {
             wp_enqueue_style( 'bricks-child', get_stylesheet_uri(), ['bricks-frontend'], filemtime( get_stylesheet_directory() . '/style.css' ) );
@@ -51,7 +51,7 @@ if (!function_exists('enqueue_admin_styles_and_scripts')) {
 
     function enqueue_admin_styles_and_scripts()
     {
-        wp_enqueue_style('wpmade-admin-css', get_stylesheet_directory_uri() . '/public/admin.css');
+        wp_enqueue_style('project-name-admin-css', get_stylesheet_directory_uri() . '/public/admin.css');
     }
 }
 

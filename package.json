@@ -1,0 +1,15 @@
+{
+  "name": "wpmade",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "parcel watch src/js/*.js --dist-dir public",
+    "build": "parcel build src/js/*.js --dist-dir public",
+    "create-block": "node src/build/create-block.js"
+  },
+  "author": "Kristijan Pirkovic",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.11.0",
+    "parcel": "^2.11.0"
+  }
+}
